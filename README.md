@@ -6,7 +6,7 @@ I build web applications with **Angular, React and ASP.NET Core**, and mobile ap
 
 I am pursuing a **Bachelor's degree in Computer Science and Software Engineering at UQAM**, after completing a DEC in Computer Science Technology at Cégep Édouard-Montpetit.
 
-[Portfolio](https://harold.click) · [LinkedIn](https://www.linkedin.com/in/haroldtch/) · Open to software development opportunities in Greater Montréal
+[LinkedIn](https://www.linkedin.com/in/haroldtch/) · Open to software development jobs and internships in Greater Montréal
 
 ## Selected projects
 
@@ -52,7 +52,7 @@ I am pursuing a **Bachelor's degree in Computer Science and Software Engineering
 
 Développeur web et mobile bilingue, diplômé en techniques de l'informatique au Cégep Édouard-Montpetit et étudiant au baccalauréat à l'UQAM. Mes projets combinent Angular, React, ASP.NET Core et Flutter, avec un intérêt pour les applications temps réel et les produits mobiles.
 
-Je suis ouvert aux opportunités en développement logiciel dans le Grand Montréal. [Échangeons sur LinkedIn](https://www.linkedin.com/in/haroldtch/).
+Je recherche un emploi ou un stage en développement logiciel dans le Grand Montréal. [Échangeons sur LinkedIn](https://www.linkedin.com/in/haroldtch/).
 
 ## All-time contributions
 
