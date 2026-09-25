@@ -15,7 +15,6 @@ I am pursuing a **Bachelor's degree in Computer Science and Software Engineering
 | **Nid de poule** | Flutter road-hazard reporting prototype with photos, geolocation, Firebase and Mapbox. | [Source & setup](https://github.com/roldhaa/niddepoule) |
 | **Super Cartes Infinies** | Angular / ASP.NET Core multiplayer card game with SignalR, JWT authentication and asynchronous matchmaking. | [Project overview](https://github.com/roldhaa/Super-Cartes-Infinies-demo) |
 | **Post Hub** | Angular / ASP.NET Core forum platform with SQL Server, hierarchical roles, media management and Swagger documentation. | [Project overview](https://github.com/roldhaa/Posthub-demo) |
-| **Tail'ed** | Contributions to job filters, dynamic result counts and location normalization. React, TypeScript and Firebase. | [Dashboard](https://github.com/tailed-community/dashboard) |
 
 *Super Cartes Infinies and Post Hub are public project presentations; application source code and runnable demos are not currently included in those repositories.*
 
@@ -23,14 +22,8 @@ I am pursuing a **Bachelor's degree in Computer Science and Software Engineering
 
 - **Spryto · Software development · 2024-present:** mobile product development with Flutter and Firebase, including authentication, video streaming and Team of the Week features.
 - **Krunch Marketing · Web development · October 2025-present:** responsive client websites and landing pages built from Figma designs in collaboration with design and marketing teams.
-- **Tail'ed · Software development internship · March-May 2026:** web features and technical testing with React, shadcn/ui, Tailwind CSS, Node.js, Express and Firebase.
+- **Tail'ed · Software development internship · March-May 2026.**
 - **TD Bank Group · Bilingual customer support · June 2026-present:** French and English support for EasyLine banking services and digital platforms.
-
-## Contributions you can review
-
-- [Job filters and dynamic counts](https://github.com/tailed-community/dashboard/pull/76): multiple state selections, dependent city filters and clearer location handling.
-- [Canada / California filtering fix](https://github.com/tailed-community/dashboard/pull/74): normalize locations and remove ambiguity in the displayed country names.
-- [Internship location normalization](https://github.com/tailed-community/tech-internships-2025-2026/pull/2): improve geographic data used by the job board.
 
 ## Technology stack
 
