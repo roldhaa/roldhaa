@@ -6,6 +6,23 @@ I study computer science and software engineering at **UQAM**, after completing 
 
 [LinkedIn](https://www.linkedin.com/in/haroldtch/) · Open to software development internships in Greater Montréal
 
+## All-time contributions
+
+**952 contributions recorded across 2022–2026.** Public activity and anonymized private contributions.
+
+![All-time GitHub contributions from 2022 to 2026](assets/contributions-all-time.svg)
+
+| Year | Contributions |
+| --- | ---: |
+| [2026](https://github.com/roldhaa?tab=overview&from=2026-09-01&to=2026-09-25) | 486 |
+| [2025](https://github.com/roldhaa?tab=overview&from=2025-12-01&to=2025-12-31) | 311 |
+| [2024](https://github.com/roldhaa?tab=overview&from=2024-12-01&to=2024-12-31) | 94 |
+| [2023](https://github.com/roldhaa?tab=overview&from=2023-12-01&to=2023-12-31) | 38 |
+| [2022](https://github.com/roldhaa?tab=overview&from=2022-12-01&to=2022-12-31) | 23 |
+| **Total** | **952** |
+
+*Snapshot: 25 September 2026. This overview does not update automatically. Follow the year links for current counts. These are all years available on this GitHub profile.*
+
 ## Selected work
 
 | Project | My work | Technologies |
