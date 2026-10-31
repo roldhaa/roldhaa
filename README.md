@@ -1,22 +1,50 @@
-# Harold Tcheuko Wouassi
+<!-- Profile source of truth: https://github.com/roldhaa/roldhaa -->
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Harold Tcheuko Wouassi | Full-stack and mobile developer in Montréal | UQAM | Français / English" />
+</p>
 
-**Full-stack & mobile developer · Montréal, Canada · Français / English**
+<p align="center">
+  <a href="https://www.linkedin.com/in/haroldtch/"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge" alt="Connect with Harold on LinkedIn" /></a>
+  <a href="https://github.com/roldhaa?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub repositories" /></a>
+  <a href="https://screenshot-debugger-qzyjc.ondigitalocean.app/"><img src="https://img.shields.io/badge/Try_Screenshot_Debugger-155E75?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Try the Screenshot Debugger live demo" /></a>
+</p>
 
-I build web applications with **Angular, React, Next.js and ASP.NET Core**, and mobile applications with **Flutter**. My work spans product development, client websites and community platforms.
+<p align="center">
+  <b>Building useful software, from the first idea to the final product.</b><br />
+  <sub>Open to software development jobs and internships in Greater Montréal.</sub>
+</p>
 
-I am pursuing a **Bachelor's degree in Computer Science and Software Engineering at UQAM**, after completing a DEC in Computer Science Technology at Cégep Édouard-Montpetit.
+<p align="center">
+  <a href="#-about-me">About</a> ·
+  <a href="#-selected-projects">Projects</a> ·
+  <a href="#-tech-stack">Tech stack</a> ·
+  <a href="#-my-contributions-in-motion">Snake</a> ·
+  <a href="#-experience">Experience</a> ·
+  <a href="#-en-français">Français</a>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/haroldtch/) · Open to software development jobs and internships in Greater Montréal
+## 💫 About me
 
-## Featured project: Screenshot Debugger
+- 🎓 Studying **Computer Science and Software Engineering at UQAM**, after a DEC in Computer Science Technology at **Cégep Édouard-Montpetit**.
+- 💻 I build web applications with **Angular, React, Next.js and ASP.NET Core**, and mobile products with **Flutter**.
+- 🧠 Interested in **AI integrations, real-time applications and tools that help people learn**.
+- 🤝 Experience across **mobile products, client websites and community platforms**.
+- 📍 Based in **Montréal, Canada**. Comfortable working in **French and English**.
+
+## 🚀 Selected projects
+
+### 🔍 Screenshot Debugger
 
 > **Comprends ton bug. Apprends à le résoudre.**
->
-> A guided debugging workshop for JavaScript, TypeScript and React students and developers.
 
-**[Try the live demo](https://screenshot-debugger-qzyjc.ondigitalocean.app/) · [Explore the source code](https://github.com/roldhaa/screenshot-debugger) · [Read the harness documentation](https://github.com/roldhaa/screenshot-debugger/blob/main/docs/HARNESS.md)**
+Turn an error screenshot into a guided investigation, an explained correction and a reusable Markdown error card. Built for **Hacktoberfest Hack Day Montréal x AGEEI**, October 2026.
 
-Built for **Hacktoberfest Hack Day Montréal x AGEEI on 9 October 2026**. Public source code under the **MIT license**, deployed on **DigitalOcean App Platform**.
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini%20API-1C315E?style=for-the-badge&logo=googlegemini&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18)
+
+**[Launch the demo ↗](https://screenshot-debugger-qzyjc.ondigitalocean.app/) · [Read the source ↗](https://github.com/roldhaa/screenshot-debugger) · [Explore the model harness ↗](https://github.com/roldhaa/screenshot-debugger/blob/main/docs/HARNESS.md)**
+
+<details>
+<summary><b>Peek under the hood: AI, validation and engineering decisions</b></summary>
 
 - **Visual AI analysis:** Gemma 4 `gemma-4-26b-a4b-it` reads an error screenshot and the supplied context through the Gemini API.
 - **Guided reasoning:** Learn / Direct modes, numbered evidence, observations separated from hypotheses, and follow-up investigation.
@@ -24,54 +52,66 @@ Built for **Hacktoberfest Hack Day Montréal x AGEEI on 9 October 2026**. Public
 - **Reusable knowledge:** export a Markdown error card and retain it in the browser.
 - **Reusable engineering:** an original model harness, Zod-validated reports, a CLI sharing the web diagnostic logic, and an Agent Skill.
 
-**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · DigitalOcean.
+**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · DigitalOcean App Platform.
 
-**Engineering choices:** the API key stays on the server; uploaded images are validated; suggestions remain under the user's control. The integration turns a model response into an inspectable debugging workflow.
+The API key stays on the server, uploaded images are validated, and suggestions remain under the user's control. Public source code under the **MIT license**. Built on **9 October 2026**.
 
-## Selected projects
+</details>
 
-| Project | Highlights | Explore |
-| --- | --- | --- |
-| **Screenshot Debugger** | Gemma 4 screenshot analysis, guided investigation, explained diffs and reusable Markdown error cards. Public MIT source, hosted on DigitalOcean. | [Live demo](https://screenshot-debugger-qzyjc.ondigitalocean.app/) · [Source & setup](https://github.com/roldhaa/screenshot-debugger) |
-| **Nid de poule** | Flutter road-hazard reporting prototype with photos, geolocation, Firebase and Mapbox. | [Source & setup](https://github.com/roldhaa/niddepoule) |
-| **Super Cartes Infinies** | Angular / ASP.NET Core multiplayer card game with SignalR, JWT authentication and asynchronous matchmaking. | [Project overview](https://github.com/roldhaa/Super-Cartes-Infinies-demo) |
-| **Post Hub** | Angular / ASP.NET Core forum platform with SQL Server, hierarchical roles, media management and Swagger documentation. | [Project overview](https://github.com/roldhaa/Posthub-demo) |
+<br />
 
-*Super Cartes Infinies and Post Hub are public project presentations; application source code and runnable demos are not currently included in those repositories.*
+| Project | What I built | Explore |
+| :--- | :--- | :--- |
+| 🗺️ **Nid de poule** | Road-hazard reporting prototype with photos, geolocation, **Flutter, Firebase and Mapbox**. | [Source & setup ↗](https://github.com/roldhaa/niddepoule) |
+| 🃏 **Super Cartes Infinies** | Multiplayer card game with **Angular, ASP.NET Core, SignalR**, JWT authentication and asynchronous matchmaking. | [Project overview ↗](https://github.com/roldhaa/Super-Cartes-Infinies-demo) |
+| 💬 **Post Hub** | Forum platform with **Angular, ASP.NET Core and SQL Server**, hierarchical roles, media management and Swagger documentation. | [Project overview ↗](https://github.com/roldhaa/Posthub-demo) |
 
-## Experience
+<sub>Super Cartes Infinies and Post Hub are public project presentations. Their repositories do not currently include application source code or runnable demos.</sub>
 
-- **Spryto · Software development · 2024-September 2026:** mobile product development with Flutter and Firebase, including authentication, video streaming and Team of the Week features.
-- **Krunch Marketing · Web development · October 2025-present:** responsive client websites and landing pages built from Figma designs in collaboration with design and marketing teams.
-- **Tail'ed · Software development internship · March-May 2026.**
-- **TD Bank Group · Bilingual customer support · June 2026-present:** French and English support for EasyLine banking services and digital platforms.
+## 💻 Tech stack
 
-## Technology stack
+**Web**
 
-| Area | Technologies |
-| --- | --- |
-| Frontend | Angular, React, Next.js, TypeScript, JavaScript, Tailwind CSS, shadcn/ui |
-| Mobile | Flutter, Dart, Android, iOS |
-| Backend | C#, ASP.NET Core, Node.js, Express, REST APIs, SignalR |
-| Data & cloud | Firebase, SQL Server, PostgreSQL, Entity Framework Core, Azure, DigitalOcean App Platform |
-| AI integration & validation | Gemma 4, Gemini API, @google/genai, Zod, Vitest |
-| Tools | Git, GitHub, Azure DevOps, Docker, Figma, Postman |
-| Practices | Object-oriented programming, MVC, MVVM, Clean Architecture, Agile/Scrum |
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-111111?style=for-the-badge&logo=shadcnui&logoColor=white)
 
-## Recognition
+**Mobile**
 
-- **OSEntreprendre Challenge 2025:** national finalist in the university category with Spryto.
-- **ApplÉTS Mobile Challenge 2025:** recipient of an ÉTS student scholarship; delivered a mobile application during a 24-hour hackathon.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Android](https://img.shields.io/badge/Android-173C2B?style=for-the-badge&logo=android&logoColor=3DDC84) ![iOS](https://img.shields.io/badge/iOS-111111?style=for-the-badge&logo=apple&logoColor=white)
 
-## En français
+**Backend & data**
 
-Développeur web et mobile bilingue, diplômé en techniques de l'informatique au Cégep Édouard-Montpetit et étudiant au baccalauréat à l'UQAM. Mes projets combinent Angular, React, Next.js, ASP.NET Core et Flutter, avec un intérêt pour les applications temps réel, les produits mobiles et les intégrations IA.
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-20232A?style=for-the-badge&logo=express&logoColor=white) ![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-1E293B?style=for-the-badge&logo=firebase&logoColor=FFCA28)
 
-Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)**, un atelier de débogage guidé par Gemma 4. Une capture d’erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo](https://screenshot-debugger-qzyjc.ondigitalocean.app/)**.
+**Cloud, quality & tools**
 
-Je recherche un emploi ou un stage en développement logiciel dans le Grand Montréal. [Échangeons sur LinkedIn](https://www.linkedin.com/in/haroldtch/).
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
-## All-time contributions
+<details>
+<summary><b>Architecture, APIs and development practices</b></summary>
+
+REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programming · MVC · MVVM · Clean Architecture · Agile/Scrum
+
+**AI integration:** Gemma 4 · Gemini API · `@google/genai` · schema validation with Zod.
+
+</details>
+
+## 🐍 My contributions in motion
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roldhaa/roldhaa/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/roldhaa/roldhaa/output/github-snake.svg" />
+    <img alt="Animated snake moving through roldhaa's GitHub contribution calendar" src="https://raw.githubusercontent.com/roldhaa/roldhaa/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <sub>My GitHub contribution calendar, one square at a time. Refreshed daily.</sub><br />
+  <a href="https://github.com/roldhaa/roldhaa/actions/workflows/snake.yml"><img src="https://github.com/roldhaa/roldhaa/actions/workflows/snake.yml/badge.svg" alt="Contribution snake workflow status" /></a>
+</p>
+
+<details>
+<summary><b>Time capsule: my contribution history, 2022 to September 2026</b></summary>
 
 **952 contributions recorded across 2022–2026.** Public activity and anonymized private contributions.
 
@@ -87,4 +127,44 @@ Je recherche un emploi ou un stage en développement logiciel dans le Grand Mont
 | **Total** | **952** |
 
 *Snapshot: 25 September 2026. This overview does not update automatically. Follow the year links for current counts. These are all years available on this GitHub profile.*
+
+</details>
+
+## 💼 Experience
+
+| Where | What I worked on |
+| :--- | :--- |
+| **Spryto** · Software development<br /><sub>2024 to September 2026</sub> | Flutter and Firebase mobile product development, including authentication, video streaming and Team of the Week features. |
+| **Krunch Marketing** · Web development<br /><sub>October 2025 to present</sub> | Responsive client websites and landing pages built from Figma designs, with design and marketing teams. |
+| **Tail'ed** · Software development internship<br /><sub>March to May 2026</sub> | Software development for a community platform. |
+| **TD Bank Group** · Bilingual customer support<br /><sub>June 2026 to present</sub> | French and English support for EasyLine banking services and digital platforms. |
+
+## 🏆 Beyond the code
+
+- **OSEntreprendre Challenge 2025:** national finalist in the university category with **Spryto**.
+- **ApplÉTS Mobile Challenge 2025:** recipient of an **ÉTS student scholarship**, with a mobile application delivered during a **24-hour hackathon**.
+
+## 🇫🇷 En français
+
+<details>
+<summary><b>Mon profil, mes projets et ce que je recherche</b></summary>
+
+Développeur web et mobile bilingue, diplômé en techniques de l'informatique au Cégep Édouard-Montpetit et étudiant au baccalauréat à l'UQAM.
+
+Je développe des applications avec **Angular, React, Next.js, ASP.NET Core et Flutter**, avec un intérêt pour les applications temps réel, les produits mobiles et les intégrations IA.
+
+Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)**, un atelier de débogage guidé par Gemma 4. Une capture d'erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo ↗](https://screenshot-debugger-qzyjc.ondigitalocean.app/)**
+
+Je recherche un **emploi ou un stage en développement logiciel dans le Grand Montréal**.
+
+**[Échangeons sur LinkedIn ↗](https://www.linkedin.com/in/haroldtch/)**
+
+</details>
+
+---
+
+<p align="center">
+  <b>Build something useful. Learn something new. Keep going.</b><br />
+  <sub>Thanks for stopping by. Let's build something together.</sub>
+</p>
 
