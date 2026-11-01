@@ -144,7 +144,7 @@ REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programmin
 - **OSEntreprendre Challenge 2025:** national finalist in the university category with **Spryto**.
 - **ApplÉTS Mobile Challenge 2025:** recipient of an **ÉTS student scholarship**, with a mobile application delivered during a **24-hour hackathon**.
 
-## 🇫🇷 En français
+## 🇨🇦 En français
 
 <details>
 <summary><b>Mon profil, mes projets et ce que je recherche</b></summary>
