@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/haroldtch/"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge" alt="Connect with Harold on LinkedIn" /></a>
   <a href="https://github.com/roldhaa?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub repositories" /></a>
-  <a href="https://screenshot-debugger-qzyjc.ondigitalocean.app/"><img src="https://img.shields.io/badge/Try_Screenshot_Debugger-155E75?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Try the Screenshot Debugger live demo" /></a>
+  <a href="https://screenshot-debugger.vercel.app"><img src="https://img.shields.io/badge/Try_Screenshot_Debugger-155E75?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Try the Screenshot Debugger live demo" /></a>
 </p>
 
 <p align="center">
@@ -37,11 +37,20 @@
 
 > **Comprends ton bug. Apprends à le résoudre.**
 
-Turn an error screenshot into a guided investigation, an explained correction and a reusable Markdown error card. Built for **Hacktoberfest Hack Day Montréal x AGEEI**, October 2026.
+Turn an error screenshot into a guided investigation, an explained correction and a reusable Markdown error card.
 
-![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini%20API-1C315E?style=for-the-badge&logo=googlegemini&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18)
+| Hackathon meta | |
+| --- | --- |
+| Event | **Hacktoberfest Hack Day Montréal x AGEEI** — 9 October 2026 |
+| MLH tracks | Best Use of Gemma 4 · Best Open-Source AI Project |
+| Model | Gemma 4 open-weight `gemma-4-26b-a4b-it` (Gemini API = access channel only) |
+| Live demo | [screenshot-debugger.vercel.app](https://screenshot-debugger.vercel.app) (Vercel Hobby, free) |
+| Mirror | [DigitalOcean App Platform](https://screenshot-debugger-qzyjc.ondigitalocean.app/) |
+| Source | [roldhaa/screenshot-debugger](https://github.com/roldhaa/screenshot-debugger) · MIT |
 
-**[Launch the demo ↗](https://screenshot-debugger-qzyjc.ondigitalocean.app/) · [Read the source ↗](https://github.com/roldhaa/screenshot-debugger) · [Explore the model harness ↗](https://github.com/roldhaa/screenshot-debugger/blob/main/docs/HARNESS.md)**
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Gemma 4](https://img.shields.io/badge/Gemma%204-1C315E?style=for-the-badge&logo=google&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18)
+
+**[Launch the demo ↗](https://screenshot-debugger.vercel.app) · [Read the source ↗](https://github.com/roldhaa/screenshot-debugger) · [Explore the model harness ↗](https://github.com/roldhaa/screenshot-debugger/blob/main/docs/HARNESS.md)**
 
 <details>
 <summary><b>Peek under the hood: AI, validation and engineering decisions</b></summary>
@@ -52,9 +61,9 @@ Turn an error screenshot into a guided investigation, an explained correction an
 - **Reusable knowledge:** export a Markdown error card and retain it in the browser.
 - **Reusable engineering:** an original model harness, Zod-validated reports, a CLI sharing the web diagnostic logic, and an Agent Skill.
 
-**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · DigitalOcean App Platform.
+**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · **Vercel** · DigitalOcean App Platform.
 
-The API key stays on the server, uploaded images are validated, and suggestions remain under the user's control. Public source code under the **MIT license**. Built on **9 October 2026**.
+The API key stays on the server (`GEMINI_API_KEY`, never `NEXT_PUBLIC_`), uploaded images are validated, and suggestions remain under the user's control. Public source code under the **MIT license**. Built on **9 October 2026**.
 
 </details>
 
@@ -84,7 +93,7 @@ The API key stays on the server, uploaded images are validated, and suggestions 
 
 **Cloud, quality & tools**
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
 <details>
 <summary><b>Architecture, APIs and development practices</b></summary>
@@ -143,6 +152,7 @@ REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programmin
 
 - **OSEntreprendre Challenge 2025:** national finalist in the university category with **Spryto**.
 - **ApplÉTS Mobile Challenge 2025:** recipient of an **ÉTS student scholarship**, with a mobile application delivered during a **24-hour hackathon**.
+- **Hacktoberfest Hack Day Montréal x AGEEI (9 October 2026):** built **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** for MLH tracks Best Use of Gemma 4 and Best Open-Source AI Project — live on [Vercel](https://screenshot-debugger.vercel.app).
 
 ## 🇨🇦 En français
 
@@ -153,7 +163,7 @@ Développeur web et mobile bilingue, diplômé en techniques de l'informatique a
 
 Je développe des applications avec **Angular, React, Next.js, ASP.NET Core et Flutter**, avec un intérêt pour les applications temps réel, les produits mobiles et les intégrations IA.
 
-Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)**, un atelier de débogage guidé par Gemma 4. Une capture d'erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo ↗](https://screenshot-debugger-qzyjc.ondigitalocean.app/)**
+Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** (Hacktoberfest Hack Day Montréal x AGEEI, 9 oct. 2026 — Best Use of Gemma 4 · Best Open-Source AI Project). Une capture d'erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo Vercel ↗](https://screenshot-debugger.vercel.app)**
 
 Je recherche un **emploi ou un stage en développement logiciel dans le Grand Montréal**.
 
