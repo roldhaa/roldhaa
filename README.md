@@ -45,7 +45,6 @@ Turn an error screenshot into a guided investigation, an explained correction an
 | MLH tracks | Best Use of Gemma 4 · Best Open-Source AI Project |
 | Model | Gemma 4 open-weight `gemma-4-26b-a4b-it` (Gemini API = access channel only) |
 | Live demo | [screenshot-debugger.vercel.app](https://screenshot-debugger.vercel.app) (Vercel Hobby, free) |
-| Mirror | [DigitalOcean App Platform](https://screenshot-debugger-qzyjc.ondigitalocean.app/) |
 | Source | [roldhaa/screenshot-debugger](https://github.com/roldhaa/screenshot-debugger) · MIT |
 
 ![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Gemma 4](https://img.shields.io/badge/Gemma%204-1C315E?style=for-the-badge&logo=google&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18)
@@ -61,7 +60,7 @@ Turn an error screenshot into a guided investigation, an explained correction an
 - **Reusable knowledge:** export a Markdown error card and retain it in the browser.
 - **Reusable engineering:** an original model harness, Zod-validated reports, a CLI sharing the web diagnostic logic, and an Agent Skill.
 
-**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · **Vercel** · DigitalOcean App Platform.
+**Stack:** Next.js · React · TypeScript · Tailwind CSS · Zod · `@google/genai` · Vitest · **Vercel**.
 
 The API key stays on the server (`GEMINI_API_KEY`, never `NEXT_PUBLIC_`), uploaded images are validated, and suggestions remain under the user's control. Public source code under the **MIT license**. Built on **9 October 2026**.
 
@@ -93,7 +92,7 @@ The API key stays on the server (`GEMINI_API_KEY`, never `NEXT_PUBLIC_`), upload
 
 **Cloud, quality & tools**
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-243426?style=for-the-badge&logo=vitest&logoColor=6E9F18) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
 <details>
 <summary><b>Architecture, APIs and development practices</b></summary>
