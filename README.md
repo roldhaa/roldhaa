@@ -26,12 +26,25 @@
 ## 💫 About me
 
 - 🎓 Studying **Computer Science and Software Engineering at UQAM**, after a DEC in Computer Science Technology at **Cégep Édouard-Montpetit**.
-- 💻 I build web applications with **Angular, React, Next.js and ASP.NET Core**, and mobile products with **Flutter**.
-- 🧠 Interested in **AI integrations, real-time applications and tools that help people learn**.
+- 💻 I build web applications with **Angular, React, Next.js and ASP.NET Core**, and mobile products with **Flutter and Swift**.
+- 🧠 Interested in **AI-powered products, developer tools, real-time applications and software entrepreneurship**.
 - 🤝 Experience across **mobile products, client websites and community platforms**.
 - 📍 Based in **Montréal, Canada**. Comfortable working in **French and English**.
 
 ## 🚀 Selected projects
+
+### Studio MonoGeste inc.
+
+Building commercial software products with a focus on productivity and creative workflows.
+
+| Product | Description | Availability |
+| --- | --- | --- |
+| **LockIn** | iOS focus and app-blocking application. | [App Store](https://apps.apple.com/ca/app/lockin-focus-app-blocker/id6804237146) |
+| **Studio MonoGeste** | Commercial creative software currently in development. | Proprietary, closed source |
+
+[Company website](https://monogeste.com)
+
+
 
 ### 🔍 Screenshot Debugger
 
@@ -41,7 +54,7 @@ Turn an error screenshot into a guided investigation, an explained correction an
 
 | Hackathon meta | |
 | --- | --- |
-| Event | **Hacktoberfest Hack Day Montréal x AGEEI** — 9 October 2026 |
+| Event | **Hacktoberfest Hack Day Montréal x AGEEI** : 9 October 2026 |
 | MLH tracks | Best Use of Gemma 4 · Best Open-Source AI Project |
 | Model | Gemma 4 open-weight `gemma-4-26b-a4b-it` (Gemini API = access channel only) |
 | Live demo | [screenshot-debugger.vercel.app](https://screenshot-debugger.vercel.app) (Vercel Hobby, free) |
@@ -101,6 +114,10 @@ REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programmin
 
 **AI integration:** Gemma 4 · Gemini API · `@google/genai` · schema validation with Zod.
 
+**AI-assisted development:** Claude Code · Cursor · OpenAI Codex · ChatGPT.
+
+**Additional languages:** Swift · Python.
+
 </details>
 
 ## 🐍 My contributions in motion
@@ -118,25 +135,11 @@ REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programmin
   <a href="https://github.com/roldhaa/roldhaa/actions/workflows/snake.yml"><img src="https://github.com/roldhaa/roldhaa/actions/workflows/snake.yml/badge.svg" alt="Contribution snake workflow status" /></a>
 </p>
 
-<details>
-<summary><b>Time capsule: my contribution history, 2022 to September 2026</b></summary>
+### GitHub activity
 
-**952 contributions recorded across 2022–2026.** Public activity and anonymized private contributions.
+[View my live contribution calendar and recent activity](https://github.com/roldhaa?tab=overview) · [Explore public repositories](https://github.com/roldhaa?tab=repositories)
 
-![All-time GitHub contributions from 2022 to 2026](assets/contributions-all-time.svg)
-
-| Year | Contributions |
-| --- | ---: |
-| [2026](https://github.com/roldhaa?tab=overview&from=2026-09-01&to=2026-09-25) | 486 |
-| [2025](https://github.com/roldhaa?tab=overview&from=2025-12-01&to=2025-12-31) | 311 |
-| [2024](https://github.com/roldhaa?tab=overview&from=2024-12-01&to=2024-12-31) | 94 |
-| [2023](https://github.com/roldhaa?tab=overview&from=2023-12-01&to=2023-12-31) | 38 |
-| [2022](https://github.com/roldhaa?tab=overview&from=2022-12-01&to=2022-12-31) | 23 |
-| **Total** | **952** |
-
-*Snapshot: 25 September 2026. This overview does not update automatically. Follow the year links for current counts. These are all years available on this GitHub profile.*
-
-</details>
+My work spans public projects and private commercial development. The contribution calendar reflects activity made visible through GitHub profile settings; private source code and commit details are not disclosed here.
 
 ## 💼 Experience
 
@@ -151,7 +154,7 @@ REST APIs · Entity Framework Core · Azure DevOps · Object-oriented programmin
 
 - **OSEntreprendre Challenge 2025:** national finalist in the university category with **Spryto**.
 - **ApplÉTS Mobile Challenge 2025:** recipient of an **ÉTS student scholarship**, with a mobile application delivered during a **24-hour hackathon**.
-- **Hacktoberfest Hack Day Montréal x AGEEI (9 October 2026):** built **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** for MLH tracks Best Use of Gemma 4 and Best Open-Source AI Project — live on [Vercel](https://screenshot-debugger.vercel.app).
+- **Hacktoberfest Hack Day Montréal x AGEEI (9 October 2026):** built **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** for MLH tracks Best Use of Gemma 4 and Best Open-Source AI Project : live on [Vercel](https://screenshot-debugger.vercel.app).
 
 ## 🇨🇦 En français
 
@@ -162,7 +165,9 @@ Développeur web et mobile bilingue, diplômé en techniques de l'informatique a
 
 Je développe des applications avec **Angular, React, Next.js, ASP.NET Core et Flutter**, avec un intérêt pour les applications temps réel, les produits mobiles et les intégrations IA.
 
-Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** (Hacktoberfest Hack Day Montréal x AGEEI, 9 oct. 2026 — Best Use of Gemma 4 · Best Open-Source AI Project). Une capture d'erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo Vercel ↗](https://screenshot-debugger.vercel.app)**
+Je développe également des produits commerciaux au sein de **Studio MonoGeste inc.**, dont [LockIn](https://apps.apple.com/ca/app/lockin-focus-app-blocker/id6804237146), une application iOS de concentration. Le code des produits propriétaires reste privé.
+
+Mon projet à découvrir : **[Screenshot Debugger](https://github.com/roldhaa/screenshot-debugger)** (Hacktoberfest Hack Day Montréal x AGEEI, 9 oct. 2026 : Best Use of Gemma 4 · Best Open-Source AI Project). Une capture d'erreur devient une enquête, une correction expliquée et une fiche réutilisable. **[Essayer la démo Vercel ↗](https://screenshot-debugger.vercel.app)**
 
 Je recherche un **emploi ou un stage en développement logiciel dans le Grand Montréal**.
 
