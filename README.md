@@ -42,7 +42,7 @@ Building commercial software products with a focus on productivity and creative 
 | **LockIn** | iOS focus and app-blocking application. | [App Store](https://apps.apple.com/ca/app/lockin-focus-app-blocker/id6804237146) |
 | **Studio MonoGeste** | Commercial creative software currently in development. | Proprietary, closed source |
 
-Company website coming soon.
+[Company website](https://monogeste.com)
 
 
 
